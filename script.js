@@ -23,3 +23,6 @@ selects.forEach((tag) => {
   const option = `<option value="${country}" ${selected}>${countries[country]}</option>`;
   tag.insertAdjacentHTML("beforeend", option);
 });
+function loadTranslation() {
+  fetch(`https://api.mymemory`);
+}
